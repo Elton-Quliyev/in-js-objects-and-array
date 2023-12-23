@@ -1,0 +1,40 @@
+body{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  height: 120vh;
+  background-color: rgb(240, 240, 118);
+  
+}
+
+img{
+  width: 260px;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+div{
+  width: 260px;
+  background-color: white;
+  text-align: center;
+  font-family: sans-serif;
+
+  border-radius: 8px;
+ 
+}
+div:hover{
+  background-color: rgb(237, 242, 242);
+  transform: scale(1.02);
+  transition: all 0.8s;
+}
+
